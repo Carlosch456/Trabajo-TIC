@@ -1,16 +1,16 @@
 Algoritmo sin_titulo
-	Escribir "¿DIme una letra ?"
+	Escribir '¿DIme una letra ?'
 	Leer letra
-	esta = falso
+	esta <- falso
 	Para i<-1 Hasta 10 Hacer
-		Si letra="a" Entonces
-			esta = verdadero
+		Si subcadena(frase,i,i)=letra Entonces
+			esta <- verdadero
 		FinSi
 	FinPara
 	Si esta=verdadero Entonces
-		Escribir "He encontrado tu letra"
+		Escribir 'He encontrado tu letra'
 	Sino
-		Escribir "No esta tu letra"
+		Escribir 'No esta tu letra'
 	FinSi
 FinAlgoritmo
 
