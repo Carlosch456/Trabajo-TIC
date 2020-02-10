@@ -28,6 +28,9 @@ FinFuncion
 //con el caracter CAR
 
 Funcion rsdo=generarCadena(car,num)
-	rsdo<- Concatenar("
+	rsdo <- ''
+	Para tam<-1 Hasta num Hacer
+        rsdo=Concatenar(rsdo,"*")
+	FinPara
 FinFuncion
 	
