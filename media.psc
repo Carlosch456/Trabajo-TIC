@@ -1,5 +1,5 @@
 Algoritmo sin_titulo
-	Escribir "INgrese la cantidad de datos"
+	Escribir "Ingrese la cantidad de datos"
 	Definir vector,x,a,n Como Entero
 	leer n
 	Dimension vector(n)
@@ -11,8 +11,8 @@ Algoritmo sin_titulo
 	para a=1 hasta n Hacer
 		Escribir vector(a)
 	FinPara
-	acum <- 0
-	Para i<- 1 Hasta  num Hacer
+	acum=0
+	Para i<- 1 Hasta  n Hacer
 		acum <- acum+n
 		
 	FinPara
