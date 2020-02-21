@@ -1,4 +1,4 @@
-Algoritmo tabla
+Algoritmo tablaMultiplicar
 	Dimension vector(10,10)
 	
 	
